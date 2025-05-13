@@ -20,4 +20,16 @@ public class Edge<N> {
     public int getWeight() {
         return weight;
     }
+
+    public void setWeight(int weight) {
+        if (weight < 0) {
+            throw new IllegalArgumentException("Vikten får inte vara negativ.");
+        }
+        this.weight = weight;
+    }
+
+    @Override
+    public String toString() {
+        return "Destination: " + destination + ", Name: " + name + ", Weight: " + weight;
+    }
 }
