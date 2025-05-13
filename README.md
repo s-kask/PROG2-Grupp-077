@@ -1,6 +1,3 @@
 # PROG2-Grupp-077
 
-bomba
-clat
-123
-
+Svante: Lagt till Edge och ListGraph klasser samt några start metoder i båda
